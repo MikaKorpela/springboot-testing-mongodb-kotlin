@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-testing-mongodb-kotlin
+  data:
+    mongodb:
+      uri: mongodb://user:pass@localhost:27017/pikecape?authSource=admin&authMechanism=SCRAM-SHA-256
